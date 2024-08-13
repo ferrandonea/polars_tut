@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "polars-tut"
+version = "0.1.0"
+description = ""
+authors = ["fjet"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+polars = "^1.4.1"
+ipykernel = "^6.29.5"
+jupyter = "^1.0.0"
+numpy = "^2.0.1"
+pandas = "^2.2.2"
+pyarrow = "^17.0.0"
+hvplot = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
